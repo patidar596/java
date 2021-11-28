@@ -1,0 +1,88 @@
+body {
+  background: rgb(58, 58, 58);
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  background-image: url("/log/resources/styles/wel.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 700px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Title h1 {
+  font-size: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width : 100%;
+  padding: 1rem;
+  
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+
+header ul {
+	
+  text-align: center;
+  margin-top: 10rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+header li {
+font-size: 1.5rem;
+font-weight: bold;
+padding:  0.5rem 1rem;
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  
+}
+
+/* FEATURES */
+
+.features {
+  background: white;
+  color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.features figure img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  background: black;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
+}
